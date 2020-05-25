@@ -3,7 +3,7 @@
 Tutorial for the [binfit](https://stash.desy.de/users/sutclw/repos/binfit)
 package developed for template fits in Belle II analyses.
 
-## Background information on`binfit` and relation to `TemplateFitter`
+## Background information on `binfit` and relation to `TemplateFitter`
 
 `binfit` is a python package for performing template fits in pure python
 developed and maintained by [William
