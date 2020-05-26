@@ -19,6 +19,13 @@ github](https://github.com/FelixMetzner/TemplateFitter). As far as I understand
 he extends it generalizes the template fitter, e.g. with support for arbitrary
 dimensions, adaptive binning.
 
+## Features
+
+The distinguishing feature of `binfit` from the other `TemplateFitter` packages,
+is that it gets rid of for-loops over the decay-channels in the fit by
+using matrix multiplications for all operations.
+
+
 ## Other references / tutorials
 
 An already existing example notebook can be found in the
