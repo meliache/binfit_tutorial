@@ -3,18 +3,22 @@
 Tutorial for the [binfit](https://stash.desy.de/users/sutclw/repos/binfit)
 package developed for template fits in Belle II analyses.
 
+As of now this is simply an annoted version of the notebook that comes with
+binfit in the `examples` directory. To get started with the tutorial, just open the
+notebook [or click here](binfit_tutorial.ipynb).
+
 ## Background information on `binfit` and relation to `TemplateFitter`
 
 `binfit` is a python package for performing template fits in pure python
 developed and maintained by [William
-Sutcliffe](mailto:william.sutcliffe08@gmail.com).
+Sutcliffe](mailto:william.sutcliffe08@gmail.com "email").
 
 Its code is based in large parts on [Maximillian
-Welsch](mailto:mwelsch@uni-bonn.de)'s `TemplateFitter` package, which is also
+Welsch](mailto:mwelsch@uni-bonn.de "email")'s `TemplateFitter` package, which is also
 openly [available on github](https://github.com/welschma/TemplateFitter).
 
 Another fork of the `TemplateFitter` package is being actively developed by
-[Felix Metzner](mailto:felix.metzner@kit.edu), also [on
+[Felix Metzner](mailto:felix.metzner@kit.edu "email"), also [on
 github](https://github.com/FelixMetzner/TemplateFitter). As far as I understand
 he extends it generalizes the template fitter, e.g. with support for arbitrary
 dimensions, adaptive binning.
