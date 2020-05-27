@@ -19,11 +19,27 @@ github](https://github.com/FelixMetzner/TemplateFitter). As far as I understand
 he extends it generalizes the template fitter, e.g. with support for arbitrary
 dimensions, adaptive binning.
 
-## Features
+## Implementation / Features
+
+The common features of the `binfit` an `TemplateFitter` / packages are (adapted from this
+[`TemplateFitter` talk](https://indico.belle2.org/event/1158/contributions/4726/attachments/2809/4241/b2gm_templatefitter.pdf)):
+
+- no reliance on ROOT: evaluation of the (log-)likelihood function relies on numpy operations
+- supports minimization with both
+  [scipy.optimize](https://docs.scipy.org/doc/scipy/reference/optimize.html)
+  (LLSQ method) or [iminuit](https://iminuit.readthedocs.io/en/latest/)
+  (standalone Minuit implementation in python).
+- template likelihood fits (simultaneous in different channels)
+- fix, create bounds or profile parameters
+- different Toy MC study methods available
+
+**`binfit`-specific:**
 
 The distinguishing feature of `binfit` from the other `TemplateFitter` packages,
-is that it gets rid of for-loops over the decay-channels in the fit by
-using matrix multiplications for all operations.
+is that it gets rid of for-loops over the decay-channels in the fit by using
+numpy matrix operations only. These are more performant, because numpy performs
+the loops in performant C in the background.
+
 
 
 ## Other references / tutorials
