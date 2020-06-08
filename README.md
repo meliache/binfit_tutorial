@@ -53,21 +53,14 @@ An already existing example notebook can be found in the
 directory of the packages. It requires you to clone binfit (see *Installation*
 section below). I will take inspiration from that.
 
-There is a `docs/` directory which is meant to contain sphinx package
-documentation (what basf2 uses) in RestructuredText (rst format), but the
-installation instructions there are outdated. Maybe that will change. Feel free
-to contribute if you want.
+If you want to understand the **theory of template fitting**, I recommend Markus
+Prim's talk at the physics performance meeting: [Template Fitting Including
+Systematics](https://indico.belle2.org/event/2170/contributions/10467/attachments/5564/8602/FittingWithSystematics.pdf)
+([youtube](https://www.youtube.com/watch?v=RyBAOdGo8zI)).
 
-Max had already given a nice tutorial for his package at the October 2019 B2GM.
-In his talk he gave a very nice overview on the theory of template fitting, so I
-recommend you to look at his
-[slides](https://indico.belle2.org/event/1158/contributions/4726/attachments/2809/4241/b2gm_templatefitter.pdf).
 If you want to try out Max' `TemplateFitter`, e.g. to compare it to `binfit`,
-there's already good
-[tutorials](https://github.com/welschma/TemplateFitter/blob/master/examples/basic_example.ipynb)
-in his packages `examples` folder. Also, his package has a nice sphinx
-[online-documentation on
-readthedocs](https://templatefitter.readthedocs.io/en/latest/index.html).
+TemplateFitter also has good jupyter notebook
+[tutorials](https://github.com/welschma/TemplateFitter/blob/master/examples/basic_example.ipynb).
 
 ## Tutorial author
 
