@@ -53,7 +53,11 @@ An already existing example notebook can be found in the
 directory of the packages. It requires you to clone binfit (see *Installation*
 section below). I will take inspiration from that.
 
-If you want to understand the **theory of template fitting**, I recommend Markus
+If you want to understand the **theory of template fitting**, I recommend
+Maximillian Welsch's
+[talk](https://indico.belle2.org/event/1158/contributions/4726/attachments/2809/4241/b2gm_templatefitter.pdf).
+at the October 2019 B2GM.
+For uncertainty handling, I recommend Markus
 Prim's talk at the physics performance meeting: [Template Fitting Including
 Systematics](https://indico.belle2.org/event/2170/contributions/10467/attachments/5564/8602/FittingWithSystematics.pdf)
 ([youtube](https://www.youtube.com/watch?v=RyBAOdGo8zI)).
